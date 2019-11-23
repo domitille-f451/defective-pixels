@@ -19,7 +19,7 @@ Some scripts to add defective pixels on webpages:
 
 ```html
 <link rel="stylesheet" href="yourpath/defectivepixels.css">
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js">
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="yourpath/defectivepixelcookies.js"></script>
 ```
 
