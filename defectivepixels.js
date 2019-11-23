@@ -8,8 +8,8 @@ for (var i = 0; i < numberOfDiv; i++) {
   var windowW = window.innerWidth;
 
   var data = {
-    top: chance.integer({ min: 1, max: windowH }),
-    left: chance.integer({ min: 1, max: windowW }),
+    top: Math.floor(Math.random() * windowH) + 1,
+    left: Math.floor(Math.random() * windowW) + 1,
     state: states[Math.floor(Math.random() * states.length)],
     color: colors[Math.floor(Math.random() * colors.length)]
   };

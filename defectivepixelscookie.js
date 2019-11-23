@@ -9,7 +9,6 @@ var data = !Cookies.get("data") ? [] : eval(JSON.parse(Cookies.get("data")));
 
 if (data.length > 0) {
   for (var i = 0; i < currentLength; i++) {
-    console.log(data[i]);
     var pixelData = data[i];
     placePixel(pixelData);
   }
@@ -18,8 +17,8 @@ if (data.length > 0) {
 for (var i = 0; i < numberOfDiv; i++) {
   var pixel = !currentLength ? i : currentLength * 1 + i;
   var pixelData = [
-    chance.integer({ min: 1, max: windowH }),
-    chance.integer({ min: 1, max: windowW }),
+    Math.floor(Math.random() * windowH) + 1,
+    Math.floor(Math.random() * windowW) + 1,
     states[Math.floor(Math.random() * states.length)],
     colors[Math.floor(Math.random() * colors.length)]
   ];
