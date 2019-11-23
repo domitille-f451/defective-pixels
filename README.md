@@ -9,9 +9,9 @@ Some scripts to add defective pixels on webpages:
 
  ###### For `defectivepixels.js`
    
-    <link rel="stylesheet" href="assets/css/defectivepixels.css">
-    <script src="assets/js/chance.min.js"></script>
-    <script src="assets/js/defectivepixel.js"></script>
+    <link rel="stylesheet" href="yourpath/defectivepixels.css">
+    <script src="yourpath/chance.min.js"></script>
+    <script src="yourpath/defectivepixel.js"></script>
   
  ###### For `defectivepixelscookies.js`   
     
