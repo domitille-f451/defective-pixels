@@ -15,10 +15,10 @@ Some scripts to add defective pixels on webpages:
   
  ###### For `defectivepixelscookies.js`   
     
-    <link rel="stylesheet" href="assets/css/defectivepixels.css">
-    <script src="assets/js/chance.min.js"></script>
+    <link rel="stylesheet" href="yourpath/defectivepixels.css">
+    <script src="yourpath/chance.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js">
-    <script src="assets/js/defectivepixelcookies.js"></script>
+    <script src="yourpath/defectivepixelcookies.js"></script>
     
 ```javascript
 var numberOfDiv = 10; 
